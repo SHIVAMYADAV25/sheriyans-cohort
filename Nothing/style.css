@@ -1,0 +1,340 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    background-color: #000000;
+}
+
+@font-face {
+    font-family: left;
+    src: url(./Sansation_Regular-COtNG1MQ.ttf);
+}
+
+@font-face {
+    font-family: style;
+    src: url(./korataki-rg-3cf0d889.ttf);
+}
+@font-face {
+    font-family: dot;
+    src: url(./Ndot-55-DoenNkNm.ttf);
+}
+#main{
+    width: 100%;
+    height: 100%;
+    margin-top: 15px;
+}
+
+#head{
+    display: flex;
+    position: relative;
+}
+
+#logo > img{
+    position: absolute;
+    object-fit: fill;
+    width: 310px;
+    left: 20px;
+}
+
+
+#serach > img{
+    position: absolute;
+    object-fit: fill;
+    width: 320px;
+    top: 12px;
+    left: 490px;
+    height: 64px;
+}
+
+
+#support > img{
+    position: absolute;
+    right: 210px;
+    top: 10px;
+    object-fit: fill;
+    width: 170px;
+    height: 61px;
+}
+
+#store > img{
+    position: absolute;
+    top: 10px;
+    right: 14px;
+    object-fit: fill;
+    width: 170px;
+    height: 61px;
+}
+
+#community > img{
+    position: absolute;
+    top: 10px;
+    right: 410px;
+    object-fit: fill;
+    width: 170px;
+    height: 61px;
+}
+
+
+#letter{
+    color: aliceblue;
+}
+
+#NOTHING{
+    position: absolute;
+    left: 60px;
+    top: 17px;
+    font-family: dot;
+    font-size: 56px;
+    background-color: transparent;
+    font-weight: 500;
+}
+
+
+#SEARCH{
+    position: absolute;
+    font-size: 23px;
+    left: 540px;
+    background-color: transparent;
+    top: 29px;
+    opacity: 0.5;
+}
+
+#sto{
+    position: absolute;
+    right: 458px;
+    top: 24px;
+    font-size: 21px;
+    font-weight: 500;
+    background-color: transparent;
+    font-family: style;
+}
+
+#comm{
+    position: absolute;
+    right: 34px;
+    top: 24px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: transparent;
+    font-family: style;
+}
+
+#supp{
+    position: absolute;
+    right: 241px;
+    top: 24px;
+    font-size: 21px;
+    font-weight: 500;
+    background-color: transparent;
+    font-family: style;
+}
+
+#lines > div{
+    box-shadow: rgb(255, 255, 255) 0px 0px 20px;
+}
+
+#line1{
+  position: absolute;
+  top: 161px;      /* adjust */
+  left: 267px;    /* adjust */
+  width: 200px;   /* length of line */
+  height: 2px;    /* thickness */
+  background: white;
+  transform: rotate(-145deg); /* angle */
+}
+
+#line2{
+    width: 200px;   /* length of line */
+    height: 2px; 
+    position: absolute; 
+    background: white;
+    transform: rotate(180deg);
+    top:218px;
+    left: 449px;
+}
+
+#line3{
+    width: 160px;   /* length of line */
+    height: 2px; 
+    position: absolute; 
+    background: white;
+    transform: rotate(-145deg);
+    left: 632px ;
+    top: 264px;
+}
+
+#line4{
+    width: 754px;   /* length of line */
+    height: 2px; 
+    position: absolute; 
+    background: white;
+    transform: rotate(180deg);
+    top: 310px;
+    left: 778px;
+}
+
+#line5{
+    width: 240px;   /* length of line */
+    height: 2px; 
+    position: absolute; 
+    background: white;
+    top: 288px;
+    transform: rotate(-145deg);
+    left: 555px;
+}
+
+#line6{
+    width: 140px;   /* length of line */
+    height: 2px; 
+    position: absolute; 
+    background: white;
+    transform: rotate(180deg);
+    top: 356px;
+    right: 625px;
+}
+
+#line7{
+    width: 110px;   /* length of line */
+    height: 2px; 
+    position: absolute; 
+    background: white;
+    transform: rotate(-145deg);
+    top: 387px;
+    right: 524px;
+}
+
+#line8{
+    width: 140px;   /* length of line */
+    height: 2px; 
+    position: absolute; 
+    background: white;
+    transform: rotate(180deg);
+    right: 394px;
+    top: 418px;
+}
+
+#line9{
+    width: 100px;   /* length of line */
+    height: 2px; 
+    position: absolute; 
+    background: white;
+    transform: rotate(145deg);
+    right: 303px;
+    top: 390px;
+}
+
+#line10{
+    width: 310px;   /* length of line */
+    height: 2px; 
+    position: absolute; 
+    background: white;
+    transform: rotate(180deg);   
+    right: 3px;
+    top: 362px;
+}
+
+
+#line11{
+    width: 650px;   /* length of line */
+    height: 2px; 
+    position: absolute; 
+    background: white;
+    transform: rotate(180deg);    
+    bottom: 50px;
+}
+
+#line12{
+    width: 100px;   /* length of line */
+    height: 2px; 
+    position: absolute; 
+    background: white;
+    transform: rotate(145deg);
+    bottom: 78px;
+    left: 641px;
+}
+
+#line13{
+    width: 804px;   /* length of line */
+    height: 2px; 
+    position: absolute; 
+    background: white;
+    transform: rotate(180deg);    
+    bottom: 106px;
+    right: 0px;
+}
+
+
+#left > h1{
+    position: absolute;
+    font-family: style ;
+    font-size: 43px;
+    color: #999d9c;
+    background-color: transparent;
+    bottom: 245px;
+    left: 56px;
+}
+
+#left > h3{
+    position: absolute;
+    font-family: style ;
+    font-size: 43px;
+    color: #999d9c;
+    background-color: transparent;
+    bottom: 180px;
+    left: 119px;
+}
+
+#left > p {
+   position: absolute;
+   font-family: dot ; 
+   bottom: 65px;
+   color: aliceblue;
+   font-size: 25px;
+   left: 110px;
+   font-weight: 100;
+}
+
+#photo > img{
+    position: absolute;
+    height: 430px;
+    width: 200px;
+}
+
+#black{
+    top: 200px;
+    right: 450px;
+    background-color: transparent;
+    box-shadow: rgb(255, 255, 255) 0px 0px 3px;
+    border-radius: 30px ;
+    transform: rotate(-32deg);
+}
+
+#white{
+    top: 240px;
+    right: 360px;
+    background-color: transparent;
+    border-radius: 30px ;
+    transform: rotate(-32deg);
+}
+
+
+/* === ANIMATIONS === */
+@keyframes fadePop {
+  from { opacity: 0; transform: scale(0.96) translateY(10px); }
+  to { opacity: 1; transform: scale(1) translateY(0); }
+}
+
+@keyframes drawLine {
+  from { width: 0; opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideDown {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes rise {
+  from { opacity: 0; transform: translateY(50px) rotate(-32deg); }
+  to { opacity: 1; transform: translateY(0) rotate(-32deg); }
+}
