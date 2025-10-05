@@ -161,3 +161,10 @@ main>:last-child{
     font-size: 34px;
     font-weight: 200;
 }
+
+#middle-mid{
+    position: absolute;
+    bottom: -10%;
+    background-color: #ffffff;
+    width: 100;
+}
