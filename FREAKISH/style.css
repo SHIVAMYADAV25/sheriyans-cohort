@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    background-color: #111111;
+}
+
+header{
+    width: 100%;
+    height: 40px;
+    color: #ffffff;
+    display: flex;
+    position: relative;
+}
+
+header > h1{
+    position: absolute;
+    top: 23px;
+    left: 56px;
+}
+
+#middle{
+    display: flex;
+    width: 90px;
+}
+
+#middle > :first-child{
+    position: absolute;
+    left: 580px;
+    top: 30px;
+    font-size: 25px;
+}
+
+#middle > :nth-child(2){
+    position: absolute;
+    left: 700px;
+    top: 30px;
+    font-size: 25px;
+}
+
+#middle > :last-child{
+    position: absolute;
+    right: 620px;
+    top: 30px;
+    font-size: 25px;
+}
+
+#ENDHEAD > button{
+    position: absolute;
+    right: 34px;
+    top: 25px;
+    width: 220px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 50px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-weight: 100;
+}
+
+#ENDHEAD > i{
+    position: absolute;
+    right: 219px;
+    top: 36px;
+    font-size: 22px;
+}
+
+
+main > :first-child{
+    width: 500px;
+    height: 450px;
+    position: absolute;
+    bottom: 0px;
+    left: 510px;
+}
+
+main > :nth-child(2){
+    background-color: transparent;
+    position: absolute;
+    bottom: 280px;
+    left: 200px;
+    width: 170px;
+    height: 110px;
+    border: 4px solid #00000040;
+    border-radius: 100px ;
+    background-color: #00000000;
+}
+
+main>:last-child{
+    position:absolute;
+    width: 220px;
+    height: 130px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 100;
+    top: 430px;
+    left: 170px;
+    opacity: 0.6;
+}
+
+#right > p{
+    font-size: 34px;
+    color: #ffffff;
+}
+
+#right{
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    height: 390px;
+    color: #b19898;
+    position: absolute;
+    right: 180px;
+    bottom: 90px;
+    align-items: center;
+}
+
+
+#right > div{
+    font-size: 20px;
+    color: #ffffff; 
+    margin-bottom: 20px;
+}
+
+#right > #line1{
+    width: 180px;
+    height: 1px;
+    background-color: #ffffff;
+    margin-bottom: 14px;
+}
+
+#arrow{
+    position: absolute;
+    top: 150px;
+    left: 420px;
+    background-color: transparent;
+    width: 140px;
+    height: 230px;
+    transform: rotate(-35deg);
+}
+
+
+#head{
+    width: 730px;
+    height: 190px;
+    background-color: transparent;
+    position: absolute;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 100px;
+    left: 410px;
+}
+
+#head > :first-child{
+    font-size: 56px;
+}
+
+#head > :last-child{
+    font-size: 34px;
+    font-weight: 200;
+}
